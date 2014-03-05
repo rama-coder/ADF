@@ -1,0 +1,21 @@
+=========================================
+	ADF Logging
+=========================================
+
+1. ADF logging feature is a thin wrapper around java.util.Logging API.
+2. Fusion Middleware components create diagnostic log files in Oracle Diagnostic Logging (ODL) format.
+3. Log file name and content format are as per Oracle standard.
+4. Like any other logger, multiple levels of logging are supported.
+5. Logging configuration can be done prior to or while running the application.
+
+6. You can view and analyze the logs using Oracle Diagnostic Log (ODL) analyzer.
+7. Logging config is done by modifying logging.xml using overview editor of ODL configuration.
+8. Opening ODL overview editor can be done using one of following steps.
+	a. In App Server Navigator, RClick IntegratedWeblogicServer and choose configure oracle diag logging for server name.
+	b. From log window action menu, select configure ODL.
+
+Conclusion:
+
+We use ADFLogger.createADFLogger APIs in ZMS ADF. Need to understand better.
+
+
